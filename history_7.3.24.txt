@@ -1,0 +1,17 @@
+   0 ls /
+   1 mkdir /home/animals
+   2 mkdir /home/animals/dogs /home/animals/cats /home/animals/fish
+   3 tree /home/animals
+   4 touch /home/animals/dogs/pluto.txt /home/animals/cats/garfield.txt /home/animals/fish/nemo.txt
+   5 tree /home/animals
+   6 touch /tmp/adam.txt
+   7 mkdir /home/humans
+   8 cp /tmp/adam.txt /home/humans
+   9 ls -l /home/humans
+  10 touch /tmp/evA.txt
+  11 mkdir /opt/eve
+  12 mv /tmp/evA.txt /opt/eve/Eva.txt
+  13 ls -l /opt/eve
+  14 mv /opt/eve /home/humans
+  15 tree /home/humans
+  16 history > history_7.3.24.txt
