@@ -1,0 +1,12 @@
+nano myfirstbashscript.sh
+strg + x  выход с сохранениеем
+chmod u+x myfirstbashscript.sh делаем исполнительным
+#!/bin/bash
+set -e
+USER="Vadim" создаём переменную
+date вывод даты
+echo "hello $USER!"
+echo "I work from directory: $(pwd)" показывает диркуторию с которой запущен файл
+ps -ef | wc -l количеество процесов одним числом
+ps -ef | grep -v "grep" | grep "bioset" | wc -l кол. проц. bioset исключая grep
+ls - l /etc/passwd | awk '{print $1}' просмотр правв на файл passwd
