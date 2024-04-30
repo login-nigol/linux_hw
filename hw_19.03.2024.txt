@@ -1,0 +1,13 @@
+1  date +'%D' >> new.txt
+2  cat new.txt
+3  df -h / >> new.txt
+4  cat new.txt
+5  history > hw_20.3.24.txt
+6  cat hw_20.3.24 | tail -n 5 >> new.txt
+7  cat new.txt
+8  cat /proc/cpuinfo | head -2 >> new.txt
+9  vi new.txt
+10 :wq
+11 ps -ef | grep root | wc -l » new.txt
+12 history >> hw_20.3.24.txt
+13 export_file hw_20.3.24.txt
