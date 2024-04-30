@@ -1,0 +1,19 @@
+#!/bin/bash
+
+for i in {1..10}
+do
+    time=$(date +'%H:%M:%S')
+    process=$(ps -ef | wc -l)
+    echo "$time $process"
+    # sleep 1
+done
+
+cat /proc/cpuinfo > cpu_info.txt
+cat /etc/os-release | grep NAME= > os_info.txt
+cat /etc/os-release | grep -o Alpine > os_name.txt
+
+for i in {50..100}
+do
+touch "${i}.txt"
+done
+
