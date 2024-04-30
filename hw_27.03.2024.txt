@@ -1,0 +1,1 @@
+mkdir -p /opt/morning_200224/vadim))
